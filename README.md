@@ -148,8 +148,10 @@ ruby -run -e httpd ./ -p 8000
 
 ```
 <div>
-    <ul ng-repeat="fruit in vm.fruits">
-        <li>{{fruit}}</li>
+    <ul>
+        <li ng-repeat="fruit in vm.fruits">
+            {{fruit}}
+        </li>
     </ul>
 </div>
 ```
