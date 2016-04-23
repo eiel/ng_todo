@@ -28,6 +28,27 @@ ng_todo
 </html>
 ```
 
+## ローカルサーバを起動しよう(macの方はPython,windowsの方はRuby)
+
+Python
+```
+ng_todo 直下で...
+
+python -m SimpleHTTPServer
+```
+
+Ruby
+```
+ng_todo 直下で...
+
+ruby -run -e httpd -- -p 8000
+
+もしくは、
+ruby -run -e httpd ./ -p 8000 
+```
+
+ブラウザでlocalhost:8000にアクセスして確認
+
 ## AngularJSを動かしてみよう
 
 - {{ 1+1 }} を入力してみよう
